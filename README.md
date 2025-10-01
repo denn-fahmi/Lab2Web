@@ -112,7 +112,7 @@ kemudian saya menambahkan CSS Selector pada file CSS saya
 ![gambar2](lb2.6.PNG) <p>
 Dengan menambahkan code-code diatas, maka hasilnya menjadi seperti ini
 ![gambar2](lb2.7.PNG) <p>
-### Soal 
+## Soal 
 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS
 dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini. <p>
 2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan

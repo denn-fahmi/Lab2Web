@@ -155,7 +155,7 @@ nav a {
 Dengan melakukan eksperimen ini dan menjalankannya, saya sedang mempraktikkan bagaimana CSS bekerja secara langsung untuk memanipulasi layout dan styling elemen HTML. Tampilan web Saya sekarang menjadi lebih dinamis dan estetik. <p>
 2. h1 {...} (Selektor Elemen Biasa):
 Sifatnya Global. Jika saya punya sepuluh h1, semuanya akan terpengaruh.
-Dalam kode saya, ini akan memengaruhi <h1> CSS Internal dan 
+Dalam kode saya, ini akan memengaruhi (h1) CSS Internal dan 
 ```
 ...</h1> (di dalam <header>) dan <h1>Hello World</h1> (di dalam #intro).
 ```

@@ -154,10 +154,20 @@ nav a {
 ```
 Dengan melakukan eksperimen ini dan menjalankannya, saya sedang mempraktikkan bagaimana CSS bekerja secara langsung untuk memanipulasi layout dan styling elemen HTML. Tampilan web Saya sekarang menjadi lebih dinamis dan estetik. <p>
 2. h1 {...} (Selektor Elemen Biasa):
-Sifatnya Global. Jika kamu punya sepuluh h1, semuanya akan terpengaruh.
-Dalam kode kamu, ini akan memengaruhi <h1>CSS Internal dan...</h1> (di dalam <header>) dan <h1>Hello World</h1> (di dalam #intro). <p>
-#intro h1 {...} (Selektor Lebih Spesifik): <p>
+Sifatnya Global. Jika saya punya sepuluh h1, semuanya akan terpengaruh.
+Dalam kode saya, ini akan memengaruhi <h1> CSS Internal dan 
+```
+...</h1> (di dalam <header>) dan <h1>Hello World</h1> (di dalam #intro).
+```
+#intro h1 {...}
+(Selektor Lebih Spesifik): <p>
 Sifatnya Lokal. Ini seperti bilang, "Aku cuma mau ubah h1 yang ada di dalam kotak #intro."
 Karena #intro adalah ID (yang seharusnya unik), selektor ini menjadi sangat spesifik.
-Dalam kode kamu, ini hanya akan memengaruhi <h1>Hello World</h1>, sementara <h1>CSS Internal dan...</h1> (di header) tetap menggunakan gaya dari Internal CSS yang kamu buat di <style> tag. <p>
-
+Dalam kode kamu, ini hanya akan memengaruhi 
+```
+<h1>Hello World</h1>, sementara <h1>CSS Internal dan...</h1>
+```
+(di header) tetap menggunakan gaya dari Internal CSS yang kamu buat di 
+```
+<style> tag.
+```

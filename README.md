@@ -52,7 +52,7 @@ dan CSS.</p>
 </body>
 </html>
 ```
-#### Code Pada File HTML
+#### Code Pada File CSS
 ```
 nav {
     background: #20A759;

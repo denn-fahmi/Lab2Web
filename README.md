@@ -3,7 +3,7 @@ Nama: Den Fahmi Satria <p>
 Nim: 312410523 <p>
 Kelas: TI.24.A5 <p>
 #### Membuat CSS Dasar di Dalam HTML
-Code Pada Doc HTML <p>
+Code Pada File HTML <p>
 ```
 <!DOCTYPE html>
 <html lang="en">

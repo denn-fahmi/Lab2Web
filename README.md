@@ -176,6 +176,6 @@ Dalam kode kamu, ini hanya akan memengaruhi
 Inline CSS>Internal CSS>External CSS
 ```
 Urutan Prioritas (Paling Tinggi ke Paling Rendah): <p>
-Inline CSS (Paling Tinggi): Deklarasi gaya yang ditulis langsung di dalam tag HTML menggunakan atribut style="". Ini adalah boss yang paling tinggi dan hampir selalu menang karena lokasinya sangat dekat dengan elemen. <p>
+Inline CSS (Paling Tinggi): Deklarasi gaya yang ditulis langsung di dalam tag HTML menggunakan atribut style="". Ini adalah paling dekat dengan elemen. <p>
 Internal CSS: Deklarasi di dalam tag <style> di bagian (head) HTML. <p>
 External CSS (Paling Rendah): Deklarasi di file terpisah (.css) yang dihubungkan melalui tag (link). <p>

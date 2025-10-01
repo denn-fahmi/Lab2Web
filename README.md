@@ -96,3 +96,5 @@ background: #E42A42;
 ```
 Saya membuat terlebih dahulu dokumen HTML
 ![gambar1](lb2.1.PNG) <p>
+Kemudian saya jalankan Program nya dan begini hasil nya di chrome <p>
+![gambar2](lb2.2.PNG) <p>

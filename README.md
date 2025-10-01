@@ -98,3 +98,17 @@ Saya membuat terlebih dahulu dokumen HTML
 ![gambar1](lb2.1.PNG) <p>
 Kemudian saya jalankan Program nya dan begini hasil nya di chrome <p>
 ![gambar2](lb2.2.PNG) <p>
+Lalu saya tambahkan stylesheet dengan link yang terhubung dengan file CSS yang baru saya buat,code saya taruh di dalam Head. <p>
+![gambar3](lb2.3.PNG) <p>
+![gambar4](lb2.3,5.PNG) <p>
+Dan seperti ini hasilnya ketika code dijalankan
+![gambar2](lb2.4.PNG) <p>
+Kemudian saya mengganti warna pada paragraf menjadi abu-abu dengan code <p>
+```
+<p style="text-align: center; color: #ccd8e4;">
+```
+![gambar2](lb2.5.PNG) <p>
+kemudian saya menambahkan CSS Selector pada file CSS saya
+![gambar2](lb2.6.PNG) <p>
+Dengan menambahkan code-code diatas, maka hasilnya menjadi seperti ini
+![gambar2](lb2.7.PNG) <p>

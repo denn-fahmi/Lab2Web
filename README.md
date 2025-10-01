@@ -2,7 +2,7 @@
 Nama: Den Fahmi Satria <p>
 Nim: 312410523 <p>
 Kelas: TI.24.A5 <p>
-### Membuat CSS Dasar di Dalam HTML
+#### Membuat CSS Dasar di Dalam HTML
 Code Pada Doc HTML <p>
 ```
 <!DOCTYPE html>
@@ -50,7 +50,7 @@ dan CSS.</p>
 <!-- CSS Class Selector -->
         <a class="button btn-primary" href="#intro">Informasi selengkapnya.</a>
 ```
-Code Pada File HTML
+#### Code Pada File HTML
 ```
 nav {
     background: #20A759;

@@ -112,3 +112,46 @@ kemudian saya menambahkan CSS Selector pada file CSS saya
 ![gambar2](lb2.6.PNG) <p>
 Dengan menambahkan code-code diatas, maka hasilnya menjadi seperti ini
 ![gambar2](lb2.7.PNG) <p>
+### Soal 
+1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS
+dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini. <p>
+2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan
+penjelasannya! <p>
+3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada
+elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan
+penjelasan dan contohnya! <p>
+4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut
+terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser?
+Berikan penjelasan dan contohnya!
+```
+( <p id="paragraf-1" class="text-paragraf"> )
+```
+### Jawaban
+1. saya menambahkan intro, button, dan teks navigasi pada file style eksternal css berikut code nya
+```
+    #intro {
+    background: #418fb1;
+    border: 1px solid #099249;
+    min-height: 100px;
+    padding: 10px;
+    /* Properti Baru */
+    border-radius: 15px; /* Sudut tumpul */
+}
+/* Menargetkan paragraf di dalam #intro */
+#intro p {
+    line-height: 1.6; /* Jarak antar baris */
+}
+.button {
+    /* ... properti asli ... */
+    /* Properti Baru */
+    box-shadow: 3px 3px 5px #888888; /* Efek bayangan */
+}
+nav a {
+    /* ... properti asli ... */
+    /* Properti Baru */
+    text-transform: uppercase; /* Ubah ke huruf besar */
+}
+```
+Dengan melakukan eksperimen ini dan menjalankannya, saya sedang mempraktikkan bagaimana CSS bekerja secara langsung untuk memanipulasi layout dan styling elemen HTML. Tampilan web Saya sekarang menjadi lebih dinamis dan estetik. <p>
+2. elemen h1 {...} = akan menargetkan semua tag h1 yang ada di seluruh dokumen html <p>
+#intro h1 {...} = Hanya menargetkan tag h1 yang merupakan anak atau keturunan dari elemen yang memiliki id='intro' <p>

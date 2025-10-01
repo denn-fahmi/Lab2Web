@@ -179,3 +179,34 @@ Urutan Prioritas (Paling Tinggi ke Paling Rendah): <p>
 Inline CSS (Paling Tinggi): Deklarasi gaya yang ditulis langsung di dalam tag HTML menggunakan atribut style="". Ini adalah paling dekat dengan elemen. <p>
 Internal CSS: Deklarasi di dalam tag <style> di bagian (head) HTML. <p>
 External CSS (Paling Rendah): Deklarasi di file terpisah (.css) yang dihubungkan melalui tag (link). <p>
+4. Ini adalah kasus khusus dari Spesifisitas. Ketika sebuah elemen punya ID dan Class, dan keduanya menargetkan properti yang sama, yang akan ditampilkan adalah properti dari ID Selector.
+```
+ID Selector>Class Selector
+```
+Perhitungan Spesifisitas (Mudah): <p>
+Spesifisitas dihitung berdasarkan poin. Semakin tinggi poin, semakin tinggi prioritasnya: <p>
+- ID Selector (#): Mendapat 100 Poin. <p>
+- Class Selector (.): Mendapat 10 Poin. <p>
+- Element Selector (p): Mendapat 1 Poin. <p>
+- Inline Style (style=""): Mendapat 1000 Poin (Ini pengecualian, makanya selalu menang). <p>
+Contoh Penerapan pada
+```
+<p id="paragraf-1" class="text-paragraf">
+```
+Maka akan jadi begini code nya :
+```
+/* Class Selector: Poin 10 */
+.text-paragraf {
+    color: blue;
+    font-size: 16px; 
+}
+/* ID Selector: Poin 100 */
+#paragraf-1 {
+    color: red;
+    font-size: 20px; /* Properti baru */
+}
+```
+Hasil yang Tampil: <p>
+Warna Teks (color): Akan menjadi Merah (red), karena deklarasi dari #paragraf-1 (100 poin) mengalahkan deklarasi dari .text-paragraf (10 poin). <p>
+Ukuran Font (font-size): Akan menjadi 20px, karena hanya font-size dari ID yang dideklarasikan, meskipun jika keduanya dideklarasikan, ID tetap menang. <p> 
+Intinya: Dalam persaingan ketat, ID selalu mengungguli Class karena ID secara desain dimaksudkan untuk elemen yang unik, sehingga memiliki bobot lebih tinggi dalam hierarki CSS. <p>

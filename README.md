@@ -49,6 +49,8 @@ adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML
 dan CSS.</p>
 <!-- CSS Class Selector -->
         <a class="button btn-primary" href="#intro">Informasi selengkapnya.</a>
+</body>
+</html>
 ```
 #### Code Pada File HTML
 ```
@@ -90,8 +92,7 @@ text-decoration: none;
 .btn-primary {
 background: #E42A42;
 }
-```
-
     </div>
-</body>
-</html>
+```
+Saya membuat terlebih dahulu dokumen HTML
+![gambar1](lb2.1.PNG) <p>

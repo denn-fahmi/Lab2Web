@@ -171,3 +171,11 @@ Dalam kode kamu, ini hanya akan memengaruhi
 ```
 <style> tag.
 ```
+3. Saat ada konflik gaya pada satu elemen, CSS punya aturan main yang disebut Cascading Order (Urutan Berjenjang). Urutan yang akan ditampilkan adalah:
+```
+Inline CSS>Internal CSS>External CSS
+```
+Urutan Prioritas (Paling Tinggi ke Paling Rendah):
+Inline CSS (Paling Tinggi): Deklarasi gaya yang ditulis langsung di dalam tag HTML menggunakan atribut style="". Ini adalah boss yang paling tinggi dan hampir selalu menang karena lokasinya sangat dekat dengan elemen.
+Internal CSS: Deklarasi di dalam tag <style> di bagian (head) HTML.
+External CSS (Paling Rendah): Deklarasi di file terpisah (.css) yang dihubungkan melalui tag (link).
